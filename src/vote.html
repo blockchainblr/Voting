@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    
+    <title>Voting Dapp</title>
+  </head>
+  <body >
+    <div class="container">
+      <div class="row justify-content-center">
+        <img src="img/india.svg" style="margin:5%;width:10%;height:10%;">
+      </div>
+      <div class="row justify-content-center">
+        <h4 style="margin-right:2%;">Select Party</h4>
+
+        <div class="input-group-btn" id="button-group-id">
+          <button type="button" class="btn btn-vote btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select
+          </button>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="index.html">congress</a>
+              <a class="dropdown-item" href="index.html">bjp</a>
+              <a class="dropdown-item" href="index.html">other</a>
+              
+          </div>
+        </div>
+
+
+        <!--
+        <div class="dropdown">
+            <button type="button" class="btn btn-vote btn-primary dropdown-toggle" data-toggle="dropdown">
+                click me!
+             </button>
+             <div class=" dropdown-menu">
+                <a class=" dropdown-item" href="">Congress</a>
+                <a class="dropdown-item" href="index.html">Bjp</a>
+                <a class="dropdown-item" href="index.html">Others</a>
+             </div>
+        </div>
+    -->
+      </div>
+    </div>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/web3.min.js"></script>
+     <script src="js/truffle-contract.js"></script>
+     <script src="js/app.js"></script>
+  </body>
+</html>
